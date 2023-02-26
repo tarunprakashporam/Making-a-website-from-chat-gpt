@@ -1,0 +1,196 @@
+/* Basic styles for the website */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+footer {
+  background-color: #f2f2f2;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #666;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #333;
+}
+
+.fab {
+  font-size: 20px;
+}
+.social {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+.social .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-button {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.social-button:hover {
+  opacity: 0.8;
+}
+
+.social-button.facebook {
+  background-color: #3b5998;
+}
+
+.social-button.twitter {
+  background-color: #1da1f2;
+}
+
+.social-button.instagram {
+  background-color: #e1306c;
+}
+
+.social-button.youtube {
+  background-color: #ff0000;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  opacity: 0.8;
+}
+
+.hero {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.cta {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding
